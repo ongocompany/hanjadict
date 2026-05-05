@@ -1,0 +1,9 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "메인 윈도우 기본 권한 — 오프라인 사전 앱이라 외부 권한 거의 불필요",
+  "windows": ["main"],
+  "permissions": [
+    "core:default"
+  ]
+}

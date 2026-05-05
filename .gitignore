@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Pipeline cache (Unihan zip 등 — 큰 파일이라 재생성 가능)
+pipeline/cache/
+pipeline/*.log
+
+# 빌드 산출물
+resources/hanjadict.db
+resources/*.db-journal
+resources/*.db-wal
+resources/*.db-shm
+
+# Tauri bundle용 DB 링크/복사본 (build_all.py가 자동 셋업)
+src-tauri/resources/hanjadict.db
+src-tauri/resources/
+
+# Tauri / Node
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/Cargo.lock
+
+# OS / Editor
+.DS_Store
+.idea/
+.vscode/
